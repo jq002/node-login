@@ -1,0 +1,25 @@
+{
+  "name": "login",
+  "version": "1.0.0",
+  "description": "node.js mongoose koa2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jq",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^2.0.1",
+    "jsonwebtoken": "^8.2.1",
+    "koa": "^2.5.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-convert": "^1.2.0",
+    "koa-logger": "^3.2.0",
+    "koa-static": "^4.0.2",
+    "koa-views": "^6.1.4",
+    "mongoose": "^5.0.16",
+    "morgan": "^1.7.0",
+    "passport": "^0.4.0",
+    "passport-http-bearer": "^1.0.1"
+  }
+}
